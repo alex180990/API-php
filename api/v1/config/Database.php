@@ -3,8 +3,8 @@
 class Database {
     private $host = "localhost";
     private $user = "root";
-    private $pass = "189012Alex%";
-    private $dbname = "taskapp";
+    private $pass = "mysql";
+    private $dbname = "tasks";
 
     public function getConnexion() {
         $conn = null;
